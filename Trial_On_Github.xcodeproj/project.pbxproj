@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		9A23D921263858AD00E0E8EC /* Trial_On_Github */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Trial_On_Github; sourceTree = "<group>"; };
+		9A23D922263858F100E0E8EC /* test_sample.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test_sample.py; sourceTree = "<group>"; };
 		9A9C88882619FB13002900C4 /* test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
+		9AF8160E26385CFA0055B31B /* test_sysexit.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test_sysexit.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		9A9C88812619F8B4002900C4 = {
 			isa = PBXGroup;
 			children = (
+				9AF8160E26385CFA0055B31B /* test_sysexit.py */,
+				9A23D922263858F100E0E8EC /* test_sample.py */,
+				9A23D921263858AD00E0E8EC /* Trial_On_Github */,
 				9A9C88882619FB13002900C4 /* test.py */,
 			);
 			sourceTree = "<group>";
