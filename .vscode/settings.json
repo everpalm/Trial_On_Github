@@ -1,7 +1,14 @@
 {
     "python.testing.pytestArgs": [
-        "."
+        "MySamplePackage"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./Trial_On_Github.xcodeproj",
+        "-p",
+        "test_*.py"
+    ]
 }
